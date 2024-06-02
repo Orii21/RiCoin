@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_marginHorizontal="55dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="70dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/logo_app"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo_ricoin"/>
+        <TextView
+            android:layout_marginTop="-10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="Welcome to RiCoin."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Industry-leading Crypto Price"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginTop="200dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_Login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Continue with Username and Password"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/button"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:text="------------------------------------ OR ------------------------------------"/>
+        <TextView
+            android:id="@+id/tv_SignUp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Sign up"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="@drawable/button"
+            android:backgroundTint="@color/Abu"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textSize="15sp"
+            android:textColor="@color/Orange"
+            android:gravity="center"
+            android:text="By proceeding, you agree to RiCoin's Terms of Service and Privacy Policy."/>
+    </LinearLayout>
+
+</LinearLayout>
